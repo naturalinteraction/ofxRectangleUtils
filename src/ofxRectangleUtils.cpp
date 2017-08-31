@@ -319,7 +319,7 @@ void RectangleUtils::alignHorz(RectanglePointers& rects, ofAlignHorz horzAnchor)
 void RectangleUtils::alignVert(RectanglePointers& rects,
                                ofAlignVert vertAnchor) {
 
-    cout << "here" << endl;
+    //cout << "here" << endl;
     if(vertAnchor != OF_ALIGN_VERT_IGNORE) {
         float yAlign = 0.0f;
         sortByVertAnchor(rects, vertAnchor);
