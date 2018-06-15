@@ -24,6 +24,7 @@
 
 
 #include "ofxRectangleUtils.h"
+#include "ofLog.h"
 
 
 namespace ofx {
