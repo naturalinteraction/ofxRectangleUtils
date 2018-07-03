@@ -40,7 +40,7 @@
 
 
 #include "ofAbstractRectanglePacker.h"
-
+#include <limits>
 
 template<typename T>
 class ofBaseOnlineRectanglePacker_: public ofAbstractRectanglePacker_<T>
