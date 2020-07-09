@@ -439,7 +439,6 @@ void RectangleUtils::cascade(RectanglePointers& rects,
     ofRectangle bb = boundingRect.getStandardized();
     ofVec2f currentPosition = bb.getTopLeft();
     
-    int currentRow = 0;
     int currentColumn = 0;
     
     for(size_t i = 0; i < rects.size(); i++) {
@@ -451,7 +450,6 @@ void RectangleUtils::cascade(RectanglePointers& rects,
             // new row, new column
             currentColumn++;
             currentPosition.x = currentColumn * offset.x + bb.x;
-            currentRow = 0;
             currentPosition.y = bb.y;
         }
         
