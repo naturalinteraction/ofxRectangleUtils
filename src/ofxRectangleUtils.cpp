@@ -22,6 +22,7 @@
 //
 // =============================================================================
 
+#include <algorithm>
 
 #include "ofxRectangleUtils.h"
 #include "ofLog.h"
